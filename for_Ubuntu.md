@@ -44,7 +44,7 @@ nvidia-smi
 
 ### Update & upgrade
 ```shell
-sudo apt update && sudo apt upgrade
+sudo apt update
 ```
 
 ### Install CUDA toolkit
