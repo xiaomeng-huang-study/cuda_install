@@ -25,7 +25,7 @@ sudo ubuntu-drivers autoinstall
 ```
 
 ### Install NVIDIA drivers
-(For example: version is 550)
+For example: version is 550
 
 ```shell
 sudo apt install nvidia-driver-550
@@ -95,7 +95,9 @@ to get the location of cuda and nvcc
 Normally: 
 - cuda: /usr/local/cuda
 - nvcc: /usr/local/cuda/bin/nvcc
-(Adapt the 1. line in the following code) 
+
+
+Adapt the 1. line in the following code
 ```shell
 export CUDA_HOME=/usr/local/cuda 
 export PATH=$CUDA_HOME/bin:$PATH
